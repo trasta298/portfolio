@@ -54,7 +54,7 @@ const HeaderMenu = styled(Link)`
     left: 0;
     content: '';
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: ${Color.textSecondaly};
     transform: scale(0, 1);
     transform-origin: center top;
