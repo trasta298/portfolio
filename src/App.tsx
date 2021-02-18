@@ -1,7 +1,11 @@
 import * as React from 'react'
+import { Home } from './pages/Home'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 export const App : React.FC = () => {
   return (
-    <div>Hello</div>
+    <Router>
+      <Route exact path='/' component={Home}></Route>
+    </Router>
   )
 }

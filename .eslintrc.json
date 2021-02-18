@@ -10,7 +10,7 @@
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
-            "jsx": true
+            "tsx": true
         },
         "ecmaVersion": 12,
         "sourceType": "module"
@@ -23,6 +23,7 @@
         "semi": ["error", "never"],
         "indent": ["error", 2],
         "comma-dangle": ["error", "never"],
-        "object-curly-spacing": ["error", "always", { "objectsInObjects": false }]
+        "object-curly-spacing": ["error", "always", { "objectsInObjects": false }],
+        "quotes": ["error", "single"]
     }
 }
