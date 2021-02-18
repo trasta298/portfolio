@@ -29,7 +29,7 @@ const PageTitle = styled.a`
     display: none;
   }
   text-decoration: none;
-  color: ${Color.textPrimary};
+  color: ${Color.textSecondaly};
   font-size: 1em;
   margin: auto 40px;
 `
@@ -43,7 +43,7 @@ const HeaderMenuContainer = styled.div`
 
 const HeaderMenu = styled.a`
   text-decoration: none;
-  color: ${Color.textPrimary};
+  color: ${Color.textSecondaly};
   font-size: 0.8em;
   margin: auto 30px 20px;
 `
