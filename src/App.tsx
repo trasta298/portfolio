@@ -28,10 +28,10 @@ const Page = styled.div`
 `
 
 const Content = styled.div`
-  height: calc(100vh - 100px);
+  flex: 1;
 `
 
 const HeaderContainer = styled.div`
   background-color: ${Color.main};
-  height: 100px;
+  height: max(100px, 8vh);
 `
