@@ -1,9 +1,12 @@
 import * as React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import styled from 'styled-components'
 import { Home } from './pages/Home'
 import { Header } from './pages/Header'
 import { Color } from './style/Color'
+import { About } from './pages/About'
+import { Skills } from './pages/Skills'
+import { Works } from './pages/Works'
 
 export const App : React.FC = () => {
   return (
@@ -14,6 +17,10 @@ export const App : React.FC = () => {
       <Content>
         <Switch>
           <Route exact path='/' component={Home}></Route>
+          <Route path='/about' component={About}></Route>
+          <Route path='/skills' component={Skills}></Route>
+          <Route path='/works' component={Works}></Route>
+          <Redirect to='/'/>
         </Switch>
       </Content>
     </Page>
