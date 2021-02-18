@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
 import { Home } from './pages/Home'
 import { Header } from './pages/Header'
@@ -12,15 +12,15 @@ export const App : React.FC = () => {
         <Header />
       </HeaderContainer>
       <Content>
-        <Router>
+        <Switch>
           <Route exact path='/' component={Home}></Route>
-        </Router>
+        </Switch>
       </Content>
     </Page>
   )
 }
 
-const Page = styled.div`
+const Page = styled(BrowserRouter)`
   display: flex;
   flex-direction: column;
   height: 100vh;

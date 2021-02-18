@@ -1,15 +1,16 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { Color } from '../style/Color'
+import { Link } from 'react-router-dom'
 
 export const Header : React.FC = () => {
   return (
     <HeaderContainer>
-      <PageTitle href='/'>trasta</PageTitle>
+      <PageTitle to='/'>trasta</PageTitle>
       <HeaderMenuContainer>
-        <HeaderMenu href='/about'>about</HeaderMenu>
-        <HeaderMenu href='/skills'>skills</HeaderMenu>
-        <HeaderMenu href='/works'>works</HeaderMenu>
+        <HeaderMenu to='/about'>about</HeaderMenu>
+        <HeaderMenu to='/skills'>skills</HeaderMenu>
+        <HeaderMenu to='/works'>works</HeaderMenu>
       </HeaderMenuContainer>
     </HeaderContainer>
   )
@@ -24,7 +25,7 @@ const HeaderContainer = styled.div`
   }
 `
 
-const PageTitle = styled.a`
+const PageTitle = styled(Link)`
   @media (max-width: 1000px) {
     display: none;
   }
@@ -41,9 +42,25 @@ const HeaderMenuContainer = styled.div`
   padding-right: 40px;
 `
 
-const HeaderMenu = styled.a`
+const HeaderMenu = styled(Link)`
+  position: relative;
   text-decoration: none;
   color: ${Color.textSecondaly};
   font-size: 0.8em;
   margin: auto 30px 20px;
+  ::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: ${Color.textSecondaly};
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+  }
+  :hover::after {
+    transform: scale(1, 1);
+  }
 `
