@@ -1,6 +1,6 @@
 # trasta-portfolio
 
-Empty project.
+trasta's Portfolio Website
 
 ## Building and running on localhost
 
