@@ -40,5 +40,5 @@ const Content = styled.div`
 
 const HeaderContainer = styled.div`
   background-color: ${Color.main};
-  height: max(100px, 8vh);
+  height: max(80px, 8vh);
 `

@@ -19,7 +19,7 @@ export const Header : React.FC = () => {
 const HeaderContainer = styled.div`
   display: flex;
   height: 100%;
-  font-size: 60px;
+  font-size: 50px;
   @media (min-height: 1250px) {
     font-size: 5vh;
   }
@@ -47,7 +47,10 @@ const HeaderMenu = styled(Link)`
   text-decoration: none;
   color: ${Color.textSecondaly};
   font-size: 0.8em;
-  margin: auto 30px 20px;
+  margin: auto 30px 13px;
+  @media (min-height: 1250px) {
+    margin: auto 30px;
+  }
   ::after {
     position: absolute;
     bottom: -4px;
