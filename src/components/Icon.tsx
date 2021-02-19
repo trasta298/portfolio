@@ -11,10 +11,21 @@ export const Icon = () => {
 }
 
 const ImgContainer = styled.div`
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: .7rem ${Color.textPrimary} solid;
 `
 
 const Img = styled.img`
-  border-radius: 50%;
-  object-fit: contain;
-  border: .5rem ${Color.textPrimary} solid;
+  animation-name: slidein;
+  animation-duration: 2s;
+  @keyframes slidein {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 `
