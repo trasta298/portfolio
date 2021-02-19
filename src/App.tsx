@@ -10,24 +10,26 @@ import { Works } from './pages/Works'
 
 export const App : React.FC = () => {
   return (
-    <Page>
-      <HeaderContainer>
-        <Header />
-      </HeaderContainer>
-      <Content>
-        <Switch>
-          <Route exact path='/' component={Home}></Route>
-          <Route path='/about' component={About}></Route>
-          <Route path='/skills' component={Skills}></Route>
-          <Route path='/works' component={Works}></Route>
-          <Redirect to='/'/>
-        </Switch>
-      </Content>
-    </Page>
+    <BrowserRouter>
+      <Page>
+        <HeaderContainer>
+          <Header />
+        </HeaderContainer>
+        <Content>
+          <Switch>
+            <Route exact path='/' component={Home}></Route>
+            <Route path='/about' component={About}></Route>
+            <Route path='/skills' component={Skills}></Route>
+            <Route path='/works' component={Works}></Route>
+            <Redirect to='/'/>
+          </Switch>
+        </Content>
+      </Page>
+    </BrowserRouter>
   )
 }
 
-const Page = styled(BrowserRouter)`
+const Page = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -40,5 +42,5 @@ const Content = styled.div`
 
 const HeaderContainer = styled.div`
   background-color: ${Color.main};
-  height: max(80px, 8vh);
+  width: 100%;
 `

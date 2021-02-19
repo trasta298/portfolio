@@ -1,9 +1,15 @@
 import * as React from 'react'
+import styled from 'styled-components'
 
 export const Home = () => {
   return (
-    <div>
+    <PageBody>
       Home
-    </div>
+    </PageBody>
   )
 }
+
+const PageBody = styled.div`
+  max-width: 1200px;
+  margin: 0px auto;
+`
