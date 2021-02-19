@@ -38,9 +38,9 @@ const Page = styled.div`
 
 const Content = styled.div`
   flex: 1;
+  overflow-y: auto;
 `
 
 const HeaderContainer = styled.div`
   background-color: ${Color.main};
-  width: 100%;
 `
