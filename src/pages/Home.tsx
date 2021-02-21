@@ -10,7 +10,9 @@ export const Home = () => {
         <Icon />
       </IconContainer>
       <LinkIconContainer>
-        <LinkIcon img='AtCoder' />
+        <LinkIcon img='twitter' link='https://twitter.com/tra_sta' />
+        <LinkIcon img='github' link='https://github.com/trasta298' />
+        <LinkIcon img='atcoder' link='https://atcoder.jp/users/trasta' />
       </LinkIconContainer>
     </PageBody>
   )
@@ -19,16 +21,19 @@ export const Home = () => {
 const PageBody = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: wrap;
   max-width: 1000px;
   margin: 0px auto;
   min-height: 100%;
 `
 
 const IconContainer = styled.div`
-  margin: 50px auto 30px;
+  margin: max(10vh, 100px) auto 60px;
 `
 
 const LinkIconContainer = styled.div`
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 `
+
