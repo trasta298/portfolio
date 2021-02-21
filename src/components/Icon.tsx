@@ -18,11 +18,16 @@ const ImgContainer = styled.div`
 `
 
 const Img = styled.img`
-  animation-name: slidein;
-  animation-duration: 2s;
+  animation: slidein .7s .5s ease 1 normal backwards running;
   @keyframes slidein {
     0% {
       transform: translateY(100%);
+    }
+    50% {
+      transform: translateY(-5%);
+    }
+    70% {
+      transform: translateY(5%);
     }
     100% {
       transform: translateY(0);
