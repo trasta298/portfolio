@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import * as React from 'react'
 import styled from 'styled-components'
 import { Icon } from '../components/Icon'
@@ -5,16 +6,23 @@ import { LinkIcon } from '../components/LinkIcon'
 
 export const Home = () => {
   return (
-    <PageBody>
-      <IconContainer>
-        <Icon />
-      </IconContainer>
-      <LinkIconContainer>
-        <LinkIcon img='twitter' link='https://twitter.com/tra_sta' />
-        <LinkIcon img='github' link='https://github.com/trasta298' />
-        <LinkIcon img='atcoder' link='https://atcoder.jp/users/trasta' />
-      </LinkIconContainer>
-    </PageBody>
+    <motion.div
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+    >
+      <PageBody>
+        <IconContainer>
+          <Icon />
+        </IconContainer>
+        <LinkIconContainer>
+          <LinkIcon img='twitter' link='https://twitter.com/tra_sta' />
+          <LinkIcon img='github' link='https://github.com/trasta298' />
+          <LinkIcon img='atcoder' link='https://atcoder.jp/users/trasta' />
+        </LinkIconContainer>
+      </PageBody>
+    </motion.div>
   )
 }
 
