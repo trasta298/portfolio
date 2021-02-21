@@ -39,6 +39,7 @@ const Page = styled.div`
 const Content = styled.div`
   flex: 1;
   overflow-y: auto;
+  padding: 1rem;
 `
 
 const HeaderContainer = styled.div`

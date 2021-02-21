@@ -21,7 +21,6 @@ export const Home = () => {
 const PageBody = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   max-width: 1000px;
   margin: 0px auto;
   min-height: 100%;
