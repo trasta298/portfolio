@@ -14,10 +14,13 @@ const ImgContainer = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  border: .7rem ${Color.textPrimary} solid;
+  border: .5rem ${Color.textPrimary} solid;
+  max-width: max(30vh, 230px);
+  max-height: max(30vh, 230px);
 `
 
 const Img = styled.img`
+  width: 100%; height:100%;
   animation: slidein .7s .5s ease 1 normal backwards running;
   @keyframes slidein {
     0% {

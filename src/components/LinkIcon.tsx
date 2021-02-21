@@ -17,8 +17,7 @@ export const LinkIcon = ({ img, link }: LinkIconProps) => {
 }
 
 const IconContainer = styled.div`
-  flex: 1;
-  max-width: 150px;
+  max-width: max(10vh, 150px);
   padding: 50px;
   display: flex;
   justify-content: center;
