@@ -22,7 +22,7 @@ const worksList = [
     title: 'portfolio',
     img: 'portfolio',
     link: 'https://trasta.me',
-    skills: ['React', 'styled-components', 'Parcel'],
+    skills: ['React', 'Parcel', 'Netlify', 'styled-components'],
     description: 'ポートフォリオです．'
   }
 ]

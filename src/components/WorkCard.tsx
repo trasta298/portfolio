@@ -54,20 +54,22 @@ const Img = styled.img`
 const CardTitle = styled.div`
   text-align: center;
   font-size: 2em;
-  margin-top: .3em;
+  margin-top: .2em;
 `
 
 const TagsContainer = styled.div`
   display: flex;
-  margin: .5em .6em 0;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: .3em .6em 0;
 `
 
 const Tag = styled.div`
   font-size: .9em;
   border-radius: .8em;
   padding: .3em;
-  margin: 0 .2em;
+  margin: .1em .2em;
+  white-space: nowrap;
   background-color: white;
 `
 
