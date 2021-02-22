@@ -11,7 +11,7 @@ export const About = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
     >
-      <ProfileContainer>Profile</ProfileContainer>
+      <ProfileContainer>About</ProfileContainer>
       <AboutContainer>
         <MyIcon src={'static/trasta.png'} />
         <MyProfile>

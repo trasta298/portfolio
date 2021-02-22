@@ -19,19 +19,18 @@ export const Header : React.FC = () => {
 const HeaderContainer = styled.div`
   display: flex;
   height: 100%;
-  font-size: 50px;
   max-width: 1200px;
   margin: 0px auto;
 `
 
 const PageTitle = styled(Link)`
-  @media (max-width: 1000px) {
+  @media (max-width: 700px) {
     display: none;
   }
   text-decoration: none;
   color: ${Color.textSecondaly};
-  font-size: 1em;
-  margin: 10px 40px;
+  font-size: 3em;
+  margin: auto 30px;
 `
 
 const HeaderMenuContainer = styled.div`
@@ -39,18 +38,15 @@ const HeaderMenuContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  padding-right: 40px;
+  padding-right: 20px;
 `
 
 const HeaderMenu = styled(Link)`
   position: relative;
   text-decoration: none;
   color: ${Color.textSecondaly};
-  font-size: 0.8em;
-  margin: 20px 30px 13px;
-  @media (min-height: 1250px) {
-    margin: 20px 30px 13px;
-  }
+  font-size: 2em;
+  margin: 20px 20px;
   ::after {
     position: absolute;
     bottom: -4px;

@@ -58,7 +58,7 @@ const CardTitle = styled.div`
 
 const TagsContainer = styled.div`
   display: flex;
-  margin-top: .5em;
+  margin: .5em .6em 0;
   justify-content: center;
 `
 
@@ -73,5 +73,5 @@ const Tag = styled.div`
 const CardText = styled.div`
   text-align: center;
   font-size: 1.1em;
-  margin: auto 0;
+  margin: auto .6em;
 `
