@@ -9,28 +9,14 @@ const worksList = [
     img: 'works/trapstar.webp',
     link: 'http://trapstar.trap.games/',
     skills: ['Golang', 'PixiJS'],
-    description: 'ハッカソンで作成した星空共有サービスです．フロントエンドとバックエンドを担当しました．'
+    description: 'ハッカソンで制作した星空共有サービスです．フロントエンドとバックエンドを担当しました．'
   },
   {
-    title: 'traPSta',
-    img: 'works/trapstar.webp',
-    link: 'http://trapstar.trap.games/',
-    skills: ['Golang', 'PixiJS'],
-    description: 'ハッカソンで作成した星空共有サービスです．'
-  },
-  {
-    title: 'traPSt',
-    img: 'works/trapstar.webp',
-    link: 'http://trapstar.trap.games/',
-    skills: ['Golang', 'PixiJS'],
-    description: 'ハッカソンで作成した星空共有サービスです．フロントエンドとバックエンドを担当しました．'
-  },
-  {
-    title: 'traPSa',
-    img: 'works/trapstar.webp',
-    link: 'http://trapstar.trap.games/',
-    skills: ['Golang', 'PixiJS'],
-    description: 'ハッカソンで作成した星空共有サービスです．フロントエンドとバックエンドを担当しました．'
+    title: 'tudura',
+    img: 'works/tudura.webp',
+    link: 'https://github.com/FujishigeTemma/tudura',
+    skills: ['Golang', 'React', 'styled-components'],
+    description: 'ハッカソンで制作したファイル共有サービスです．フロントエンドの実装を担当しました．諸処の事情で運用は行っていません．'
   }
 ]
 
