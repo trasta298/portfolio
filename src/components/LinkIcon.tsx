@@ -9,7 +9,7 @@ interface LinkIconProps {
 export const LinkIcon = ({ img, link }: LinkIconProps) => {
   return (
     <IconContainer>
-      <a href={link} target='_blank' rel="noreferrer">
+      <a href={link} target='_blank' rel='noreferrer'>
         <Img src={`static/${img}.svg`} />
       </a>
     </IconContainer>
