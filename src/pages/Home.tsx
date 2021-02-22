@@ -6,27 +6,25 @@ import { LinkIcon } from '../components/LinkIcon'
 
 export const Home = () => {
   return (
-    <motion.div
+    <PageBody
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
     >
-      <PageBody>
-        <IconContainer>
-          <Icon />
-        </IconContainer>
-        <LinkIconContainer>
-          <LinkIcon img='twitter' link='https://twitter.com/tra_sta' />
-          <LinkIcon img='github' link='https://github.com/trasta298' />
-          <LinkIcon img='atcoder' link='https://atcoder.jp/users/trasta' />
-        </LinkIconContainer>
-      </PageBody>
-    </motion.div>
+      <IconContainer>
+        <Icon />
+      </IconContainer>
+      <LinkIconContainer>
+        <LinkIcon img='twitter' link='https://twitter.com/tra_sta' />
+        <LinkIcon img='github' link='https://github.com/trasta298' />
+        <LinkIcon img='atcoder' link='https://atcoder.jp/users/trasta' />
+      </LinkIconContainer>
+    </PageBody>
   )
 }
 
-const PageBody = styled.div`
+const PageBody = styled(motion.div)`
   display: flex;
   flex-direction: column;
   max-width: 1000px;
@@ -43,4 +41,3 @@ const LinkIconContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
 `
-

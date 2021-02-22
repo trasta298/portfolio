@@ -5,34 +5,32 @@ import { Color } from '../style/Color'
 
 export const About = () => {
   return (
-    <motion.div
+    <PageBody
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
     >
-      <PageBody>
-        <ProfileContainer>Profile</ProfileContainer>
-        <AboutContainer>
-          <MyIcon src={'static/trasta.png'} />
-          <MyProfile>
-            <h1>trasta (とらすた)</h1>
-            <p>東京工業大学 生命理工学院 B1<br/>
-            東京工業大学デジタル創作同好会traP</p>
-            <ul>
-              <li>代表補佐</li>
-              <li>SysAd, Algorithm, Graphic, Game</li>
-            </ul>
-            <p>バックエンドやフロントエンドを書いていたり，ゲームを作ったり，
-              Pythonでいろいろやっていたりしています．Rustのお気持ち理解したい．</p>
-          </MyProfile>
-        </AboutContainer>
-      </PageBody>
-    </motion.div>
+      <ProfileContainer>Profile</ProfileContainer>
+      <AboutContainer>
+        <MyIcon src={'static/trasta.png'} />
+        <MyProfile>
+          <h1>trasta (とらすた)</h1>
+          <p>東京工業大学 生命理工学院 B1<br/>
+          東京工業大学デジタル創作同好会traP</p>
+          <ul>
+            <li>代表補佐</li>
+            <li>SysAd, Algorithm, Graphic, Game</li>
+          </ul>
+          <p>バックエンドやフロントエンドを書いていたり，ゲームを作ったり，
+            Pythonでいろいろやっていたりしています．Rustのお気持ち理解したい．</p>
+        </MyProfile>
+      </AboutContainer>
+    </PageBody>
   )
 }
 
-const PageBody = styled.div`
+const PageBody = styled(motion.div)`
   display: flex;
   flex-direction: column;
   max-width: 1000px;
@@ -42,7 +40,7 @@ const PageBody = styled.div`
 
 const ProfileContainer = styled.div`
   margin-top: 50px;
-  font-size: 5rem;
+  font-size: 4.3rem;
 `
 
 const AboutContainer = styled.div`
