@@ -25,5 +25,5 @@ const PageBody = styled(motion.div)`
 
 const WorksContainer = styled.div`
   margin-top: 50px;
-  font-size: 4.3rem;
+  font-size: 4rem;
 `

@@ -44,7 +44,7 @@ const PageBody = styled(motion.div)`
 
 const ProfileContainer = styled.div`
   margin-top: 50px;
-  font-size: 4.3rem;
+  font-size: 4rem;
 `
 
 const AboutContainer = styled.div`
@@ -66,8 +66,8 @@ const MyIcon = styled.img`
 const MyProfile = styled.div`
   flex: 1;
   font-size: 1.5rem;
-  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", 
-  "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans', 
+  'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
   font-weight: 500;
   min-width: 36rem;
 `
