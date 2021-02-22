@@ -43,31 +43,31 @@ const PageBody = styled(motion.div)`
 `
 
 const ProfileContainer = styled.div`
-  margin-top: 50px;
-  font-size: 4rem;
+  margin-top: 10px;
+  font-size: 3.5em;
 `
 
 const AboutContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin: 50px auto 0;
+  margin: 30px auto 0;
   max-width: 1000px;
 `
 
 const MyIcon = styled.img`
   flex: 1;
-  max-width: 300px;
-  margin: auto 70px auto 10px;
+  max-width: 230px;
+  margin: auto 40px auto 40px;
   border-radius: 20%;
   border: .3em ${Color.textPrimary} solid;
 `
 
 const MyProfile = styled.div`
   flex: 1;
-  font-size: 1.6rem;
+  font-size: 1.2em;
   font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans', 
   'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
   font-weight: 500;
-  min-width: 36rem;
+  min-width: 18em;
 `

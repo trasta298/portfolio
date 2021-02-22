@@ -22,9 +22,6 @@ const HeaderContainer = styled.div`
   font-size: 50px;
   max-width: 1200px;
   margin: 0px auto;
-  @media (min-height: 1250px) {
-    font-size: 5vh;
-  }
 `
 
 const PageTitle = styled(Link)`

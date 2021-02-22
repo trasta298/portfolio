@@ -1,33 +1,77 @@
 import * as React from 'react'
 import styled from 'styled-components'
+import { Color } from '../style/Color'
 
 interface WorkCardProps {
   img: string,
-  link: string
+  link: string,
+  title: string,
+  skills: Array<string>,
+  description: string
 }
 
-export const WorkCard = ({ img, link }: WorkCardProps) => {
+export const WorkCard = ({
+  img, link, title, skills, description
+}: WorkCardProps) => {
   return (
-    <a href={link} target='_blank' rel='noreferrer'>
-      <IconContainer>
+    <CardLink href={link} target='_blank' rel='noreferrer'>
+      <Card>
         <Img src={`static/${img}`} />
-      </IconContainer>
-    </a>
+        <CardTitle>{ title }</CardTitle>
+        <TagsContainer>
+          {skills.map((skill) => (
+            <Tag key={ skill }>{ skill }</Tag>
+          ))}
+        </TagsContainer>
+        <CardText>{ description }</CardText>
+      </Card>
+    </CardLink>
   )
 }
 
-const IconContainer = styled.div`
-  max-width: max(10vh, 120px);
-  padding: 50px;
+const CardLink = styled.a`
+  text-decoration: none;
+`
+
+const Card = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 1em;
+  background-color: #e6e6e3;
+  color: ${ Color.textPrimary };
 `
 
 const Img = styled.img`
   width: 100%;
-  transition: all 0.4s cubic-bezier(.8, 1.8, .75, .75);
-  :hover {
-    transform: rotate(10deg) scale(1.1);
-  }
+  height: 50%;
+  object-fit: cover;
+`
+
+const CardTitle = styled.div`
+  text-align: center;
+  font-size: 2em;
+  margin-top: .3em;
+`
+
+const TagsContainer = styled.div`
+  display: flex;
+  margin-top: .5em;
+  justify-content: center;
+`
+
+const Tag = styled.div`
+  font-size: .9em;
+  border-radius: .8em;
+  padding: .3em;
+  margin: 0 .2em;
+  background-color: white;
+`
+
+const CardText = styled.div`
+  text-align: center;
+  font-size: 1.1em;
+  margin: auto 0;
 `
