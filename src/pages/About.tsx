@@ -27,7 +27,7 @@ export const About = () => {
             <li>SysAd, Algorithm, Graphic, Game</li>
           </ul>
           <p>バックエンドやフロントエンドを書いていたり，ゲームを作ったり，
-            Pythonでいろいろやっていたりしています．Rustのお気持ち理解したい．</p>
+            Pythonでいろいろやっていたりしています．</p>
         </MyProfile>
       </AboutContainer>
     </PageBody>

@@ -9,7 +9,7 @@ export const Header : React.FC = () => {
       <PageTitle to='/'>trasta</PageTitle>
       <HeaderMenuContainer>
         <HeaderMenu to='/about'>about</HeaderMenu>
-        <HeaderMenu to='/skills'>skills</HeaderMenu>
+        {/* <HeaderMenu to='/skills'>skills</HeaderMenu> */}
         <HeaderMenu to='/works'>works</HeaderMenu>
       </HeaderMenuContainer>
     </HeaderContainer>

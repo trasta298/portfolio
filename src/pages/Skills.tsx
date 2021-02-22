@@ -10,7 +10,7 @@ export const Skills = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
     >
-      <SkillsContainer>Skills</SkillsContainer>
+      <SkillsTitle>Skills</SkillsTitle>
     </PageBody>
   )
 }
@@ -23,7 +23,10 @@ const PageBody = styled(motion.div)`
   min-height: 100%;
 `
 
-const SkillsContainer = styled.div`
+const SkillsTitle = styled.div`
   margin-top: 50px;
   font-size: 4.3rem;
+`
+
+const SkillsContainer = styled.div`
 `
