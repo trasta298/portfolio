@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Switch, Route, useLocation } from 'react-router-dom'
+import { Switch, Route, useLocation, Redirect } from 'react-router-dom'
 import styled from 'styled-components'
 import { Home } from './pages/Home'
 import { Header } from './pages/Header'
@@ -24,6 +24,7 @@ export const App : React.FC = () => {
             <Route path='/about' component={About}></Route>
             <Route path='/skills' component={Skills}></Route>
             <Route path='/works' component={Works}></Route>
+            <Route path='/' render={() => (<Redirect to='/' />)} />
           </Switch>
         </AnimatePresence>
       </Content>
