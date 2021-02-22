@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import * as React from 'react'
 import styled from 'styled-components'
 import { Color } from '../style/Color'
+import trastaImage from '../static/trasta.png'
 
 export const About = () => {
   return (
@@ -13,7 +14,7 @@ export const About = () => {
     >
       <ProfileContainer>About</ProfileContainer>
       <AboutContainer>
-        <MyIcon src={'static/trasta.png'} />
+        <MyIcon src={ trastaImage } />
         <MyProfile>
           <h1>trasta (とらすた)</h1>
           <p>

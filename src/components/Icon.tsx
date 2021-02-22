@@ -1,11 +1,12 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { Color } from '../style/Color'
+import trastaImage from '../static/trasta.png'
 
 export const Icon = () => {
   return (
     <ImgContainer>
-      <Img src={'static/trasta.png'} />
+      <Img src={ trastaImage } />
     </ImgContainer>
   )
 }

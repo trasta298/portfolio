@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
+import images from '../static/*.svg'
 
 interface LinkIconProps {
   img: string,
@@ -10,7 +11,7 @@ export const LinkIcon = ({ img, link }: LinkIconProps) => {
   return (
     <IconContainer>
       <a href={link} target='_blank' rel='noreferrer'>
-        <Img src={`static/${img}.svg`} />
+        <Img src={ images[img] } />
       </a>
     </IconContainer>
   )

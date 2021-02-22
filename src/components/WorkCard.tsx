@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { Color } from '../style/Color'
+import images from '../static/works/*.webp'
 
 interface WorkCardProps {
   img: string,
@@ -16,7 +17,7 @@ export const WorkCard = ({
   return (
     <CardLink href={link} target='_blank' rel='noreferrer'>
       <Card>
-        <Img src={`static/${img}`} />
+        <Img src={ images[img] } />
         <CardTitle>{ title }</CardTitle>
         <TagsContainer>
           {skills.map((skill) => (
