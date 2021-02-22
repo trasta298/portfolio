@@ -11,6 +11,7 @@ export const Skills = () => {
       transition={{ duration: 0.2 }}
     >
       <SkillsTitle>Skills</SkillsTitle>
+      <SkillsContainer></SkillsContainer>
     </PageBody>
   )
 }

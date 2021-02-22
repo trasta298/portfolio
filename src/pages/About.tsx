@@ -65,7 +65,7 @@ const MyIcon = styled.img`
 
 const MyProfile = styled.div`
   flex: 1;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans', 
   'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
   font-weight: 500;
