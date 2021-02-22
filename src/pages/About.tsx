@@ -16,8 +16,12 @@ export const About = () => {
         <MyIcon src={'static/trasta.png'} />
         <MyProfile>
           <h1>trasta (とらすた)</h1>
-          <p>東京工業大学 生命理工学院 B1<br/>
-          東京工業大学デジタル創作同好会traP</p>
+          <p>
+            東京工業大学 生命理工学院 B1<br/>
+            <a href='https://trap.jp' target='_blank' rel='noreferrer'>
+              東京工業大学デジタル創作同好会traP
+            </a>
+          </p>
           <ul>
             <li>代表補佐</li>
             <li>SysAd, Algorithm, Graphic, Game</li>
