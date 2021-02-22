@@ -33,7 +33,7 @@ const PageBody = styled(motion.div)`
 `
 
 const IconContainer = styled.div`
-  margin: max(10vh, 100px) auto 60px;
+  margin: 80px auto 60px;
 `
 
 const LinkIconContainer = styled.div`

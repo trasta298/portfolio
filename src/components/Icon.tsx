@@ -14,14 +14,14 @@ const ImgContainer = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 47%;
-  border: max(.8vh, 11px) ${Color.textPrimary} solid;
-  max-width: max(30vh, 250px);
-  max-height: max(30vh, 250px);
+  border: min(10px,2vw) ${Color.textPrimary} solid;
+  width: min(50vw, 300px);
+  height: min(50vw, 300px);
 `
 
 const Img = styled.img`
-  margin: 4% 0 0 4%;
-  width: 92%; height:92%;
+  margin: 1% 0 0 1%;
+  width: 98%; height:98%;
   animation: slidein .7s .5s ease 1 normal both running;
   @keyframes slidein {
     0% {
