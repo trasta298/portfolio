@@ -17,6 +17,13 @@ const worksList = [
     link: 'https://github.com/FujishigeTemma/tudura',
     skills: ['Golang', 'React', 'styled-components'],
     description: '部内ハッカソンで制作したファイル共有サービスです．フロントエンドの実装を担当しました．諸処の事情で運用は行っていません．'
+  },
+  {
+    title: 'portfolio',
+    img: 'portfolio',
+    link: 'https://trasta.me',
+    skills: ['React', 'styled-components', 'Parcel'],
+    description: 'ポートフォリオです．'
   }
 ]
 
