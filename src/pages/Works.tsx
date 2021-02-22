@@ -69,8 +69,8 @@ const PageBody = styled(motion.div)`
 `
 
 const WorksTitle = styled.div`
-  margin-top: 50px;
-  font-size: 4rem;
+  margin-top: 10px;
+  font-size: 3.5rem;
 `
 
 const WorksContainer = styled.div`
