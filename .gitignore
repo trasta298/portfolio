@@ -3,6 +3,7 @@
 coverage/
 dist/*
 public/*
+!public/_redirects
 node_modules/
 *.log
 
