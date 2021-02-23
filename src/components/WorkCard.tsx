@@ -76,5 +76,7 @@ const Tag = styled.div`
 const CardText = styled.div`
   text-align: center;
   font-size: 1.1em;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans', 
+  'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
   margin: auto .6em;
 `

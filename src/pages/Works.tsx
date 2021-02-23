@@ -24,6 +24,13 @@ const worksList = [
     link: 'https://trasta.me',
     skills: ['React', 'Parcel', 'Netlify', 'styled-components'],
     description: 'ポートフォリオです．'
+  },
+  {
+    title: 'AtCoder',
+    img: 'atcoder',
+    link: 'https://atcoder.jp/users/trasta',
+    skills: ['Python'],
+    description: 'PythonでAtCoderコンテストに参加しています．水(highest:1535)です．'
   }
 ]
 
