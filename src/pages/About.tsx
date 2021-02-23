@@ -16,7 +16,7 @@ export const About = () => {
       <AboutContainer>
         <MyIcon src={ trastaImage } />
         <MyProfile>
-          <h1>trasta (とらすた)</h1>
+          <h2>trasta (とらすた)</h2>
           <p>
             東京工業大学 生命理工学院 B1<br/>
             <a href='https://trap.jp' target='_blank' rel='noreferrer'>
@@ -57,8 +57,8 @@ const AboutContainer = styled.div`
 `
 
 const MyIcon = styled.img`
-  flex: 1;
-  max-width: 230px;
+  width: min(230px, 60vw);
+  height: min(230px, 60vw);
   margin: auto 40px auto 40px;
   border-radius: 20%;
   border: .3em ${Color.textPrimary} solid;
@@ -66,9 +66,12 @@ const MyIcon = styled.img`
 
 const MyProfile = styled.div`
   flex: 1;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans', 
   'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
   font-weight: 500;
-  min-width: 18em;
+  min-width: min(18em, 80vw);
+  h2 {
+    font-size: 2em;
+  }
 `
