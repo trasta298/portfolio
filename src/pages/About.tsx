@@ -19,7 +19,7 @@ export const About = () => {
           <h2>trasta (とらすた)</h2>
           <p>
             東京工業大学 情報通信系 B2<br/>
-            <a href='https://trap.jp' target='_blank' rel='noreferrer'>
+            <a href='https://trap.jp/author/trasta/' target='_blank' rel='noreferrer'>
               東京工業大学デジタル創作同好会traP
             </a>
           </p>
