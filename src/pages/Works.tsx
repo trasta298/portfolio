@@ -22,7 +22,7 @@ const worksList = [
     title: 'portfolio',
     img: 'portfolio',
     link: 'https://github.com/trasta298/portfolio',
-    skills: ['React', 'Parcel', 'Netlify', 'styled-components'],
+    skills: ['React', 'Parcel', 'Cloudflare', 'styled-components'],
     description: 'ポートフォリオです．'
   },
   {
@@ -38,6 +38,13 @@ const worksList = [
     link: 'https://github.com/hackathon21spring-05',
     skills: ['Golang', 'Vue3', 'WindiCSS'],
     description: '部内ハッカソンで，はてなブックマークライクなブックマーク共有サービスを制作しました．'
+  },
+  {
+    title: 'CoeFont STUDIO',
+    img: 'coefont_studio',
+    link: 'https://coefont.studio/',
+    skills: ['coefont'],
+    description: 'すべてのクリエイターに声のフォントを届ける'
   }
 ]
 
@@ -77,7 +84,7 @@ const PageBody = styled(motion.div)`
 
 const WorksTitle = styled.div`
   margin-top: 10px;
-  font-size: 3.5rem;
+  font-size: 3rem;
 `
 
 const WorksContainer = styled.div`
@@ -87,4 +94,5 @@ const WorksContainer = styled.div`
   gap: 40px;
   justify-content: center;
   margin-top: 30px;
+  margin-bottom: 40px;
 `

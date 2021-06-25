@@ -45,7 +45,7 @@ const PageBody = styled(motion.div)`
 
 const ProfileContainer = styled.div`
   margin-top: 10px;
-  font-size: 3.5em;
+  font-size: 3em;
 `
 
 const AboutContainer = styled.div`
