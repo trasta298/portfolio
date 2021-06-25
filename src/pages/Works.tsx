@@ -31,6 +31,13 @@ const worksList = [
     link: 'https://atcoder.jp/users/trasta',
     skills: ['Python'],
     description: 'PythonでAtCoderコンテストに参加しています．水(highest:1535)です．'
+  },
+  {
+    title: 'linQ',
+    img: 'linq',
+    link: 'https://github.com/hackathon21spring-05',
+    skills: ['Golang', 'Vue3', 'WindiCSS'],
+    description: '部内ハッカソンで，はてなブックマークライクなブックマーク共有サービスを制作しました．'
   }
 ]
 
