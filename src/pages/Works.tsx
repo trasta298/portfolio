@@ -30,7 +30,7 @@ const worksList = [
     img: 'atcoder',
     link: 'https://atcoder.jp/users/trasta',
     skills: ['Python'],
-    description: 'PythonでAtCoderコンテストに参加しています．水(highest:1535)です．'
+    description: 'PythonでAtCoderコンテストに参加しています．青(highest:1603)です．'
   },
   {
     title: 'linQ',
