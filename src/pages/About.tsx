@@ -24,7 +24,7 @@ export const About = () => {
             </a>
           </p>
           <ul>
-            <li>代表補佐</li>
+            <li>代表</li>
             <li>SysAd, Algorithm, Graphic, Game</li>
           </ul>
           <p>バックエンドやフロントエンドを書いていたり，ゲームを作ったり，
