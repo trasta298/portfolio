@@ -40,9 +40,9 @@ const worksList = [
     description: '部内ハッカソンで，はてなブックマークライクなブックマーク共有サービスを制作しました．'
   },
   {
-    title: 'CoeFont STUDIO',
+    title: 'CoeFont',
     img: 'coefont_studio',
-    link: 'https://coefont.studio/',
+    link: 'https://coefont.cloud/',
     skills: ['coefont'],
     description: 'すべてのクリエイターに声のフォントを届ける'
   }
