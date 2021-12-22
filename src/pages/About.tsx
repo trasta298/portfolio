@@ -17,18 +17,21 @@ export const About = () => {
         <MyIcon src={ trastaImage } />
         <MyProfile>
           <h2>trasta (とらすた)</h2>
-          <p>
-            灘高校 → 東京工業大学 情報通信系 B2<br/>
-            <a href='https://trap.jp/author/trasta/' target='_blank' rel='noreferrer'>
+          <MyList>
+            <li>灘高校 → 東京工業大学 情報通信系 B2</li>
+            <li>
+              <RefTag href='https://trap.jp' target='_blank' rel='noreferrer'>
               東京工業大学デジタル創作同好会traP
-            </a>
-          </p>
-          <ul>
-            <li>代表</li>
-            <li>SysAd, Algorithm, Graphic, Game</li>
-          </ul>
+              </RefTag>
+              <MyList>
+                <li>代表</li>
+                <li>SysAd, Algorithm, Graphic, Game</li>
+              </MyList>
+            </li>
+            <li><RefTag href='https://coefont.cloud' target='_blank' rel='noreferrer'>CoeFont</RefTag> developer</li>
+          </MyList>
           <p>バックエンドやフロントエンドを書いていたり，ゲームを作ったり，
-            Pythonでいろいろやっていたりしています．</p>
+            競プロをやっていたりしています．新しい面白いものを生み出すのが好きです．</p>
         </MyProfile>
       </AboutContainer>
     </PageBody>
@@ -74,4 +77,15 @@ const MyProfile = styled.div`
   h2 {
     font-size: 2em;
   }
+`
+
+const MyList = styled.ul`
+  margin-top: 1px;
+  margin-bottom: 5px;
+`
+
+const RefTag = styled.a`
+  underline: none;
+  text-decoration: none;
+  color: ${Color.accent};
 `
