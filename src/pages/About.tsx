@@ -30,8 +30,9 @@ export const About = () => {
             </li>
             <li><RefTag href='https://coefont.cloud' target='_blank' rel='noreferrer'>CoeFont</RefTag> developer</li>
           </MyList>
-          <p>バックエンドやフロントエンドを書いていたり，ゲームを作ったり，
-            競プロをやっていたりしています．新しい面白いものを生み出すのが好きです．</p>
+          <p>バックエンドやフロントエンドを書いていたり、ゲームを作ったり、
+            競プロをやっていたりしています。新しい面白いものを生み出すのが好きです。
+            好きな言語はPython、嫌いな言語はPythonです。</p>
         </MyProfile>
       </AboutContainer>
     </PageBody>
