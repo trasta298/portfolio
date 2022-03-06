@@ -9,35 +9,35 @@ const worksList = [
     img: 'trapstar',
     link: 'http://trapstar.trap.games/',
     skills: ['Golang', 'PixiJS'],
-    description: '部内ハッカソンで制作した星空共有サービスです．フロントエンドとバックエンドを担当しました．'
+    description: '部内ハッカソンで制作した星空共有サービスです。フロントエンドとバックエンドを担当しました。'
   },
   {
     title: 'tudura',
     img: 'tudura',
     link: 'https://github.com/FujishigeTemma/tudura',
     skills: ['Golang', 'React', 'styled-components'],
-    description: '部内ハッカソンで制作したファイル共有サービスです．フロントエンドの実装を担当しました．諸処の事情で運用は行っていません．'
+    description: '部内ハッカソンで制作したファイル共有サービスです。運用は行っていません。'
   },
   {
     title: 'portfolio',
     img: 'portfolio',
     link: 'https://github.com/trasta298/portfolio',
     skills: ['React', 'Parcel', 'Cloudflare', 'styled-components'],
-    description: 'ポートフォリオです．'
+    description: 'ポートフォリオです。'
   },
   {
     title: 'AtCoder',
     img: 'atcoder',
     link: 'https://atcoder.jp/users/trasta',
     skills: ['Python'],
-    description: 'PythonでAtCoderコンテストに参加しています．青(highest:1603)です．'
+    description: 'PythonでAtCoderコンテストに参加しています。青(highest:1603)です。'
   },
   {
     title: 'linQ',
     img: 'linq',
     link: 'https://github.com/hackathon21spring-05',
     skills: ['Golang', 'Vue3', 'WindiCSS'],
-    description: '部内ハッカソンで，はてなブックマークライクなブックマーク共有サービスを制作しました．'
+    description: '部内ハッカソンで，はてなブックマークライクなブックマーク共有サービスを制作しました。'
   },
   {
     title: 'CoeFont',
@@ -45,6 +45,13 @@ const worksList = [
     link: 'https://coefont.cloud/',
     skills: ['coefont'],
     description: 'すべてのクリエイターに声のフォントを届ける'
+  },
+  {
+    title: 'Nascalay',
+    img: 'nascalay',
+    link: 'https://nascalay.trasta.dev/',
+    skills: ['Golang', 'WebSocket', 'React', 'emotion'],
+    description: '多人数で遊べるWeb上のお絵かきリレーゲームです。'
   }
 ]
 
