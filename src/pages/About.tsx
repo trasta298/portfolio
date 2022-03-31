@@ -18,7 +18,7 @@ export const About = () => {
         <MyProfile>
           <h2>trasta (とらすた)</h2>
           <MyList>
-            <li>灘高校 → 東京工業大学 情報通信系 B2</li>
+            <li>灘高校 → 東京工業大学 情報通信系 B3</li>
             <li>
               <RefTag href='https://trap.jp' target='_blank' rel='noreferrer'>
               東京工業大学デジタル創作同好会traP
