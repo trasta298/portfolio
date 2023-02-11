@@ -44,14 +44,21 @@ const worksList = [
     img: 'coefont_studio',
     link: 'https://coefont.cloud/',
     skills: ['coefont'],
-    description: 'すべてのクリエイターに声のフォントを届ける'
+    description: 'AI音声プラットフォームです。開始当初からエンジニアリーダーとして開発。'
   },
   {
     title: 'Nascalay',
     img: 'nascalay',
-    link: 'https://nascalay.trasta.dev/',
+    link: 'https://nascalay.trap.games/',
     skills: ['Golang', 'WebSocket', 'React', 'emotion'],
-    description: '多人数で遊べるWeb上のお絵かきリレーゲームです。'
+    description: '多人数で遊べるWeb上のお絵かきリレーゲームです。バックエンドを担当しました。'
+  },
+  {
+    title: 'ROOT3',
+    img: 'root3',
+    link: 'https://root3.trap.games/',
+    skills: ['Golang', 'React', 'TailwindCSS'],
+    description: '多人数での割り勘計算を簡単にするアプリです。フロントエンドとバックエンドを担当しました。'
   }
 ]
 
