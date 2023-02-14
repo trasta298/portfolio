@@ -54,6 +54,13 @@ const worksList = [
     description: '多人数で遊べるWeb上のお絵かきリレーゲームです。バックエンドを担当しました。'
   },
   {
+    title: 'Mushikui',
+    img: 'mushikui',
+    link: 'https://mushuikui.trasta.dev/',
+    skills: ['FastAPI', 'Vue'],
+    description: '毎日一文、数式を予想して当てる穴埋めゲームです。'
+  },
+  {
     title: 'ROOT3',
     img: 'root3',
     link: 'https://root3.trap.games/',
