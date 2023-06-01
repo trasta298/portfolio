@@ -56,7 +56,7 @@ const worksList = [
   {
     title: 'Mushikui',
     img: 'mushikui',
-    link: 'https://mushuikui.trasta.dev/',
+    link: 'https://mushikui.trasta.dev/',
     skills: ['FastAPI', 'Vue'],
     description: '毎日一文、数式を予想して当てる穴埋めゲームです。'
   },
